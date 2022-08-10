@@ -8,6 +8,7 @@ import { MovieService } from 'src/app/services/movie.service';
   styleUrls: ['./movies.page.scss'],
 })
 export class MoviesPage implements OnInit {
+  // Commentaires
   movies = [];
   currentPage = [];
   constructor(private movieService:MovieService,private loadingCtrl :LoadingController) { }
